@@ -1,4 +1,4 @@
-# flashchat_flutter
+# Grouple
 
 A new Flutter project.
 
