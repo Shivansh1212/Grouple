@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:flashchat_flutter/screens/home_screen.dart';
-import 'package:flashchat_flutter/screens/login_screen.dart';
-import 'package:flashchat_flutter/service/auth_service.dart';
+import 'home_screen.dart';
+import 'login_screen.dart';
+import '../service/auth_service.dart';
 import 'package:flutter/material.dart';
 import '../helper/helper_function.dart';
 

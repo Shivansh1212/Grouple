@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flashchat_flutter/components/snackbar.dart';
-import 'package:flashchat_flutter/helper/helper_function.dart';
-import 'package:flashchat_flutter/screens/chat_screen.dart';
-import 'package:flashchat_flutter/service/database_service.dart';
+import '../components/snackbar.dart';
+import '../helper/helper_function.dart';
+import 'chat_screen.dart';
+import '../service/database_service.dart';
 import 'package:flutter/material.dart';
 
 class SearchScreen extends StatefulWidget {

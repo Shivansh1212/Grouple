@@ -1,8 +1,7 @@
-
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flashchat_flutter/components/snackbar.dart';
-import 'package:flashchat_flutter/screens/home_screen.dart';
-import 'package:flashchat_flutter/service/database_service.dart';
+import '../components/snackbar.dart';
+import '../screens/home_screen.dart';
+import '../service/database_service.dart';
 import 'package:flutter/material.dart';
 
 class GroupInfo extends StatefulWidget {

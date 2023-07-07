@@ -1,9 +1,9 @@
 // ignore_for_file: use_key_in_widget_constructors
-import 'package:flashchat_flutter/constants.dart';
-import 'package:flashchat_flutter/helper/helper_function.dart';
-import 'package:flashchat_flutter/screens/home_screen.dart';
-import 'package:flashchat_flutter/screens/profile_page.dart';
-import 'package:flashchat_flutter/screens/search_screen.dart';
+import 'constants.dart';
+import 'helper/helper_function.dart';
+import './screens/home_screen.dart';
+import './screens/profile_page.dart';
+import './screens/search_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import './screens/welcome_screen.dart';
@@ -24,18 +24,18 @@ void main() async {
     await Firebase.initializeApp();
   }
   runApp(
-    FlashChat(),
+    Grouple(),
   );
 }
 
 bool isSignedIn = false;
 
-class FlashChat extends StatefulWidget {
+class Grouple extends StatefulWidget {
   @override
-  State<FlashChat> createState() => _FlashChatState();
+  State<Grouple> createState() => _GroupleState();
 }
 
-class _FlashChatState extends State<FlashChat> {
+class _GroupleState extends State<Grouple> {
   @override
   void initState() {
     super.initState();

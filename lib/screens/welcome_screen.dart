@@ -1,4 +1,4 @@
-import 'package:flashchat_flutter/constants.dart';
+import '../constants.dart';
 import 'package:flutter/services.dart';
 import 'registration_screen.dart';
 import 'package:flutter/material.dart';

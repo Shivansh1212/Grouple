@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
-
-import 'package:flashchat_flutter/screens/chat_screen.dart';
+import '../screens/chat_screen.dart';
 import 'package:flutter/material.dart';
 
 class GroupTile extends StatefulWidget {

@@ -1,8 +1,8 @@
-import 'package:flashchat_flutter/constants.dart';
-import 'package:flashchat_flutter/helper/helper_function.dart';
-import 'package:flashchat_flutter/screens/home_screen.dart';
-import 'package:flashchat_flutter/service/auth_service.dart';
-import 'package:flashchat_flutter/screens/login_screen.dart';
+import '../constants.dart';
+import '../helper/helper_function.dart';
+import 'home_screen.dart';
+import 'login_screen.dart';
+import '../service/auth_service.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import '../components/rounded_button.dart';

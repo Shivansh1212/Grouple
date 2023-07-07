@@ -1,13 +1,13 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flashchat_flutter/components/group_tile.dart';
-import 'package:flashchat_flutter/components/snackbar.dart';
-import 'package:flashchat_flutter/helper/helper_function.dart';
-import 'package:flashchat_flutter/screens/login_screen.dart';
-import 'package:flashchat_flutter/screens/profile_page.dart';
-import 'package:flashchat_flutter/screens/search_screen.dart';
-import 'package:flashchat_flutter/service/auth_service.dart';
-import 'package:flashchat_flutter/service/database_service.dart';
+import '../components/group_tile.dart';
+import '../components/snackbar.dart';
+import '../helper/helper_function.dart';
+import 'login_screen.dart';
+import 'profile_page.dart';
+import 'search_screen.dart';
+import '../service/auth_service.dart';
+import '../service/database_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

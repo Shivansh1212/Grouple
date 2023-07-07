@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flashchat_flutter/components/message_tile.dart';
-import 'package:flashchat_flutter/screens/group_info.dart';
-import 'package:flashchat_flutter/service/database_service.dart';
+import '../components/message_tile.dart';
+import 'group_info.dart';
+import '../service/database_service.dart';
 import 'package:flutter/material.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -156,7 +156,8 @@ class _ChatScreenState extends State<ChatScreen> {
               itemCount: snapshot.data.docs.length,
               itemBuilder: (context, index) {
                 return MessageTile(
-                    time: DateTime.fromMillisecondsSinceEpoch(snapshot.data.docs[index]['time']),
+                    time: DateTime.fromMillisecondsSinceEpoch(
+                        snapshot.data.docs[index]['time']),
                     message: snapshot.data.docs[index]['message'],
                     sender: snapshot.data.docs[index]['sender'],
                     sendByMe:
